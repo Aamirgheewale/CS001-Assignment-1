@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+.top-section{
+    height: 50vh;
+    background-image: linear-gradient(to right, rgba(104, 25, 128, 0.93), rgb(0, 0, 0, 1));
+}
+.header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+
+}
+img{
+    padding: 10px;
+    display: flex;
+}
+.navbar{
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar-items{
+    padding-left: 5rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+}  
+#nav-items{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+#home{
+    
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.discription{
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*.bg-container{
+    border: 2px solid white;
+}*/
+.card{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    /*border: 2px solid white;*/
+}
+.card img{
+    border-radius: 28px;
+    margin-left: 10rem;
+    /*border: 2px solid white;*/
+}
+.link-cards{
+    padding-top: 5rem;
+    margin-left: 5rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    /*border: 2px solid white;*/
+}
+#card1{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#card1 img{
+    border-radius: 28px;
+    margin-right: 10rem;
+}
+#link-cards{
+    padding-top: 3rem;
+    margin-right: 5rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+#link-cards a{
+    text-decoration: none;
+
+}
+.link-cards a{
+    text-decoration: none;
+}
+
+.buton{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #fff;
+
+}
+.buton:hover{
+    background-color: #681980;
+    color: white;
+    cursor: pointer;
+}
+.tag{
+    color: #fff;
+    font-size: large;
+    padding-top: 1rem;
+}
+footer{
+    text-align: center;
+    background-color: grey;
+    font-size: x-large;
+    padding: 10px;
+    color: #fff;
+}
